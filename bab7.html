@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>WEB IL KOLABORASI</title>
+  <link rel="stylesheet" href="bab1.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+
+<body style="background-image: url(Desain\ tanpa\ judul\ \(24\).png); padding-bottom: 120px;">
+  <script>
+    AOS.init({
+      once: true
+    });
+  </script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      document.querySelectorAll('.hover-video').forEach(video => {
+        video.addEventListener('mouseenter', () => {
+          video.muted = false;
+          video.controls = true;
+        });
+        video.addEventListener('mouseleave', () => {
+          video.muted = true;
+          video.controls = false;
+          video.play();
+        });
+      });
+    });
+  </script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <div class="navbar" style="display: flex; background-color:#ee6a43;">
+    <li class="logo">
+      <img src="logo_mallika.png" alt="logo" style="width: 80px; margin: 10px;">
+    </li>
+    <a href="index.html" style="height: 25px; margin-left: 10px; margin-right: 10px;">Home</a>
+    <a href="bab1.html" class="tab1" style="height: 25px; margin-left: 10px; margin-right: 10px;">Abstrak</a>
+    <a href="bab2.html" class="tab2" style="height: 25px; margin-left: 10px; margin-right: 10px;">Pendahuluan</a>
+    <div class="dropdown">
+      <button class="dropdown" style="padding: 5px;height: 45px;">Rencana Kegiatan
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content" style="padding: 0px;">
+        <a href="bab3a.html">Perencanaan Produksi</a>
+        <a href="bab3b.html">Perencanaan Promosi</a>
+        <a href="bab3c.html">Perencanaan Booth</a>
+      </div>
+    </div>
+    <div class="dropdown" style="padding: 5px;">
+      <button class="dropdown" style="height: 45px;">Hasil Kegiatan
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content" style="padding: 10px;">
+        <a href="bab4a.html">4.1 Laporan Pelaksanaan</a>
+        <a href="bab4b.html">4.2 Laporan Keuangan</a>
+        <a href="bab4c.html">4.3 Statistik Jualan</a>
+        <a href="bab4d.html">4.4 Refleksi Kegiatan</a>
+        <a href="bab4e.html">4.5 Video proses dan hasil produk</a>
+      </div>
+    </div>
+    <div class="dropdown" style="padding: 0px;">
+      <button class="dropdown" style="height: 50px;">Penutup
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content" style="padding: 0px;">
+        <a href="Bab5a.html">5.1 Kesimpulan</a>
+        <a href="bab5b.html">5.2 Saran</a>
+      </div>
+    </div>
+    <a href="bab6.html" style="border-radius: 10px; height: 35px; margin-left: 10px; margin-right: 10px;">Daftar
+      Pustaka</a>
+    <a href="bab7.html" style="border-radius: 10px; height: 35px; margin-left: 10px; margin-right: 10px;">Lampiran</a>
+    <a href="bab8.html" style="border-radius: 10px; height: 35px; margin-left: 10px; margin-right: 10px;">PPT</a>
+  </div>
+  <div style="margin-bottom: -100px; margin-left: -20px; transform: translateY(80px);">
+    <h1 style="margin-bottom: -20px;">Foto Persiapan &</h1>
+    <h1>Perencanaan</h1>
+  </div>
+  <div style="margin-left: 50px; margin-top: 70px;">
+    <div class="photos one">
+      <img src="lampiran1.jpg" alt="">
+      <img src="lampiran2.jpg" alt="">
+      <img src="lampiran3.jpg" alt="">
+      <img src="lampiran4.jpg" alt="">
+    </div>
+    <div class="photos">
+      <img src="lampiran5.jpg" alt="">
+      <img src="POSTER CATALOG MALLIKA.png" alt="">
+      <img src="lampiran7.jpg" alt="">
+      <img src="lampiran8.jpg" alt="">
+    </div>
+  </div>
+  <div style="background-color:#4ab3b8; margin-top: 70px;">
+    <div style="margin-left: -20px; transform: translateY(10px); margin-bottom: 30px;">
+      <h1 style="margin-bottom: -20px; color: white;">Pembayaran via QR</h1>
+    </div>
+    <div class="scroll">
+      <img src="1.jpg" alt="">
+      <img src="2.jpg" alt="">
+      <img src="3.jpg" alt="">
+      <img src="4.jpg" alt="">
+      <img src="5.jpg" alt="">
+      <img src="6.jpg" alt="">
+      <img src="7.jpg" alt="">
+      <img src="8.jpg" alt="">
+      <img src="9.jpg" alt="">
+      <img src="10.jpg" alt="">
+      <img src="11.jpg" alt="">
+      <img src="12.jpg" alt="">
+      <img src="13.jpg" alt="">
+      <img src="14.jpg" alt="">
+      <img src="15.jpg" alt="">
+    </div>
+  </div>
+  <div style="margin-top: -30px;">
+    <div style="margin-bottom: -100px; margin-left: -20px; transform: translateY(80px);">
+      <h1 style="margin-bottom: -20px;">Video Promosi &</h1>
+      <h1>Pelaksanaan Bazaar</h1>
+    </div>
+    <div style="display: flex; justify-content: center; margin-bottom: 30px; margin-top: 100px; margin-left: 100px;">
+      <div class="promo">
+        <video class="hover-video" src="lampiran11.mp4" autoplay muted loop style="margin-right: -5px;"></video>
+        <video class="hover-video" src="lampiran12.mp4" autoplay muted loop></video>
+      </div>
+      <div class="bazaar" style="display: flex; flex-direction: column;">
+        <video class="hover-video" src="lampiran9.mp4" autoplay muted loop></video>
+        <video class="hover-video" src="lampiran10.mp4" autoplay muted loop></video>
+      </div>
+    </div>
+    <h3 style="text-align: center;">See more at: <a href="https://www.instagram.com/mallika_id/"
+        target="_blank">@mallika_id</a> on Instagram</h3>
+    <div style="background-color:#4ab3b8; padding-bottom: 120px; margin-bottom: -100px;">
+      <div style="margin-bottom: -100px; margin-left: -20px; transform: translateY(10px);">
+        <h1 style="margin-bottom: -20px; color: white;">Procedure Text</h1>
+      </div>
+      <div
+        style="justify-content: center; display: flex; gap: 10px; transform: translateY(130px); margin-bottom: 30px;">
+        <iframe src="Procedure Text Scrunchie.pdf" width="600px" height="500px"></iframe>
+        <iframe src="Procedure Text Biotechnology Lip Balm.pdf" width="600px" height="500px"></iframe>
+      </div>
+    </div>
+</body>
+
+</html>
