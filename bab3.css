@@ -1,0 +1,104 @@
+body{
+    background-color: #efba73;
+    width: 100%;
+  }
+  html,body{
+  overflow-x: hidden;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  }
+  @font-face {
+    font-family:'custom';
+    src: url(Tropical\ Vibes.ttf);
+    }
+    @font-face {
+      font-family:'custom1';
+      src: url(Tropi\ Land\ -\ \(Demo\)\ hanscostudio.com.ttf);
+      }
+      .navbar {
+        overflow: hidden;
+        background-color:#ee6a43;
+        font-family:'custom1';
+      }
+      
+      
+      .navbar a {
+        float: left;
+        font-size: 20px;
+        color: white;
+        background-color:#ee6a43;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 0px;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      .dropdown {
+        float: left;
+        overflow: hidden;
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 0px;
+        font-size: 20px;
+        font-family: 'custom1';
+        color: white;
+        background-color: #ee6a43;
+        border: none;
+      }
+      
+    
+      .dropdown .dropbtn {
+        font-size: 16px;
+        border: none;
+        outline: none;
+        color: white;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit; 
+        margin: 0; 
+      }
+      
+      .navbar a:hover, .dropdown:hover .dropbtn {
+        background-color: red;
+      }
+      
+      .dropdown-content {
+        margin-top: 30px;
+        display: none;
+        position: absolute;
+        background-color: none;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      .dropdown-content a {
+        float: none;
+        color: rgb(255, 255, 255);
+        background-color: #ff9979;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align:center;
+      }
+      
+      .dropdown-content a:hover {
+        background-color: none;
+      }
+      
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      li.logo{
+        list-style: none;
+      }
+  @font-face {
+    font-family:'custom';
+    src: url(Tropical\ Vibes.ttf);
+    }
+ @font-face {
+    font-family:'custom1';
+    src: url(Tropi\ Land\ -\ \(Demo\)\ hanscostudio.com.ttf);
+    }
+   
