@@ -137,33 +137,61 @@ a{
   margin-top: 10px;
   margin-bottom: 10px;
 }
-div.photos{
+div.pers{
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fcbeab;
+  border-radius: 40px;
+  padding: 10px 20px 20px 20px;
+  margin: 5px 270px 5px 270px;
+  transition: all 0.3s ease;
+}
+.pers h2{
+  margin: 0 0 -5px 0;
+  transform: translateY(10px);
+  transition: all 0.3s ease;
+}
+div.pers:hover h2{
+  margin: 0 0 10px 0;
+  transform: translateY(0px);
+}
+div.pers:hover .photos img{
+  width: 200px;
+  height: 200px;
+  margin: 10px 10px 10px 10px;
 }
 .photos img{
   width: 200px;
-  height: 200px;
+  height: 0px;
   object-fit: cover;
-  margin: 5px 5px 5px 5px;
-  transition: all 0.2s ease-in;
-  box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.167);
-}
-.photos img:hover{
-  height: 250px;
-  width: auto;
-  margin-bottom: -50px;
-}
-.one img:hover{
-  transform: translateY(-50px);
-  margin-bottom: -50px;
+  margin: 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
 }
 .promo video{
-  width: 250px;
+  height: 400px;
 }
 .bazaar video{
-  height: 222.5px;
+  height: 450px;
+}
+.bazaar img{
+  height: 225px;
+  width: 506px;
+  object-fit: cover;
+}
+div.bazaar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fcbeab;
+  border-radius: 40px;
+  padding: 20px 20px;
+  transition: all 0.3s ease;
+  width: 1040px;
+  transform: translateX(20%);
+  margin-top: 20px;
 }
 div.scroll{
   background-color: #4ab3b8;
@@ -171,7 +199,6 @@ div.scroll{
   white-space: nowrap;
   padding: 10px 30px 10px 30px;
 }
-
 div.scroll img {
   padding: 10px;
   height: 350px;
@@ -184,4 +211,9 @@ iframe.biotek{
   background-color: #4ab3b8;
   width: 800px;
   height: 450px;
+}
+
+span.itlc{
+  color: #793f0f;
+  font-style: italic;
 }
